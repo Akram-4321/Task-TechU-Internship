@@ -1,0 +1,68 @@
+.actionsFrameIcon {
+  height: 10.938rem;
+  width: 10.938rem;
+  position: relative;
+  border-radius: var(--br-sm);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.star1Icon,
+.star2Icon,
+.star3Icon,
+.star4Icon,
+.star5Icon {
+  height: 1.131rem;
+  width: 1.181rem;
+  position: relative;
+  min-height: 1.125rem;
+}
+.hELPMENUFrame {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 0.438rem;
+}
+.weLoveLandingfolio {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.5rem;
+}
+.raghuShwetha {
+  position: relative;
+  font-size: var(--text-md-medium-size);
+  letter-spacing: -0.2px;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+.dropdownParent,
+.lineParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem 0;
+  min-width: 16.188rem;
+  max-width: 100%;
+}
+.dropdownParent {
+  flex-direction: row;
+  align-items: center;
+  gap: 0 1.5rem;
+  min-width: 24.25rem;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--gray-900);
+  font-family: var(--font-lexend);
+}
+@media screen and (max-width: 900px) {
+  .actionsFrameIcon {
+    flex: 1;
+  }
+  .dropdownParent {
+    flex-wrap: wrap;
+    min-width: 100%;
+  }
+}

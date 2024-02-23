@@ -1,0 +1,102 @@
+.layer1Icon {
+  align-self: stretch;
+  width: 14.038rem;
+  position: relative;
+  max-height: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-height: 3.25rem;
+}
+.button1 {
+  position: relative;
+  line-height: 150%;
+  font-weight: 500;
+}
+.button {
+  border-bottom: 2px solid var(--foundation-primary-p300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  color: var(--foundation-primary-p300);
+}
+.textButton {
+  line-height: 150%;
+}
+.chevronDownIcon,
+.textButton,
+.textButton1 {
+  position: relative;
+}
+.chevronDownIcon {
+  height: 1rem;
+  width: 1rem;
+}
+.buttonsContainer,
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.375rem;
+}
+.buttonsContainer {
+  gap: 0 1.625rem;
+}
+.line {
+  position: relative;
+  font-weight: 500;
+}
+.button2 {
+  border-radius: var(--br-xs);
+  background-color: var(--color-darkslategray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-11xl);
+  color: var(--base-white);
+}
+.navbar,
+.navbarWrapper,
+.weekdayframes {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.weekdayframes {
+  width: 85.688rem;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 0 1.625rem;
+}
+.navbar,
+.navbarWrapper {
+  box-sizing: border-box;
+}
+.navbar {
+  flex: 1;
+  background-color: var(--foundation-primary-p50);
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-9xl) var(--padding-xl);
+  text-align: left;
+  font-size: var(--font-size-lg);
+  color: var(--foundation-neutrals-n900);
+  font-family: var(--font-outfit);
+}
+.navbarWrapper {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-5xl);
+  top: 0;
+  z-index: 99;
+  position: sticky;
+}
+@media screen and (max-width: 1200px) {
+  .buttonsContainer {
+    display: none;
+  }
+}

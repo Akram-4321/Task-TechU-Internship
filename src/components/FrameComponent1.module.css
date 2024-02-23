@@ -1,0 +1,399 @@
+.featureHighlights {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 1.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.unveilingTheHeart {
+  margin: 0;
+  position: relative;
+  font-size: var(--font-size-33xl);
+  letter-spacing: -2px;
+  line-height: 3.875rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--gray-900);
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem 0;
+  max-width: 100%;
+}
+.youCanReach {
+  width: 36rem;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 1.875rem;
+  color: var(--gray-900);
+  display: inline-block;
+  max-width: 100%;
+}
+.headingAndSupportingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem 0;
+  max-width: 100%;
+}
+.frameGroupChild {
+  width: 5.875rem;
+  height: 5.875rem;
+  position: relative;
+}
+.precisionMatchmakingAt {
+  margin: 0;
+  width: 25.813rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.experienceMatchmakingLike {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+}
+.frameGroup,
+.text2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.text2 {
+  align-self: stretch;
+  gap: 0.75rem 0;
+}
+.frameGroup {
+  flex: 1;
+  overflow: hidden;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 1rem 0;
+  min-width: 23.938rem;
+}
+.frameParentChild {
+  width: 5.875rem;
+  height: 5.875rem;
+  position: relative;
+}
+.verifiedProfilesFor {
+  margin: 0;
+  width: 25.813rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.yourSafetyIs {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+}
+.frameParent,
+.platfromFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.platfromFrame {
+  align-self: stretch;
+  gap: 0.75rem 0;
+}
+.frameParent {
+  flex: 1;
+  overflow: hidden;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 1rem 0;
+  min-width: 23.938rem;
+}
+.groupParentChild {
+  width: 5.875rem;
+  height: 5.875rem;
+  position: relative;
+}
+.tailoredSearchTailored {
+  margin: 0;
+  width: 25.813rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.customizeYourSearch {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+}
+.frameParent1 {
+  align-self: stretch;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.75rem 0;
+}
+.buttonPrimaryWithIcon,
+.frameParent1,
+.groupParent {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.groupParent {
+  flex: 1;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 1rem 0;
+  min-width: 23.938rem;
+}
+.buttonPrimaryWithIcon {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 0 2rem;
+}
+.frameChild {
+  width: 5.875rem;
+  height: 5.875rem;
+  position: relative;
+}
+.successStoriesThat {
+  margin: 0;
+  width: 25.813rem;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  max-width: 100%;
+}
+.joinTheRanks {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-outfit);
+}
+.frameContainer,
+.successStoriesThatInspireParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.successStoriesThatInspireParent {
+  align-self: stretch;
+  gap: 0.75rem 0;
+}
+.frameContainer {
+  flex: 1;
+  overflow: hidden;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 1rem 0;
+  min-width: 23.938rem;
+}
+.frameItem {
+  width: 5.875rem;
+  height: 5.875rem;
+  position: relative;
+}
+.yourPrivacyYour {
+  width: 25.813rem;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  max-width: 100%;
+}
+.takeChargeOf {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-outfit);
+}
+.frameDiv,
+.yourPrivacyYourControlParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 100%;
+}
+.yourPrivacyYourControlParent {
+  align-self: stretch;
+  gap: 0.75rem 0;
+}
+.frameDiv {
+  flex: 1;
+  overflow: hidden;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 1rem 0;
+  min-width: 23.938rem;
+}
+.frameInner {
+  width: 5.875rem;
+  height: 5.875rem;
+  position: relative;
+}
+.stayConnectedWith {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  font-weight: 500;
+  font-family: inherit;
+}
+.communicationIsKey {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-outfit);
+}
+.frameParent2,
+.stayConnectedWithSeamlessMParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+.stayConnectedWithSeamlessMParent {
+  align-self: stretch;
+  gap: 0.75rem 0;
+}
+.frameParent2 {
+  flex: 1;
+  overflow: hidden;
+  padding: var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 1rem 0;
+  min-width: 23.938rem;
+  max-width: 100%;
+}
+.buttonPrimaryWithIcon1,
+.text1 {
+  align-self: stretch;
+  display: flex;
+  max-width: 100%;
+}
+.buttonPrimaryWithIcon1 {
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0 2rem;
+  font-family: var(--font-lexend);
+}
+.text1 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem 0;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--gray-900);
+}
+.headingAndSupportingTextParent,
+.mayInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.headingAndSupportingTextParent {
+  flex: 1;
+  flex-direction: column;
+  gap: 2rem 0;
+}
+.mayInner {
+  width: 102.313rem;
+  flex-direction: row;
+  padding: 0 var(--padding-xl) var(--padding-21xl);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--text-md-medium-size);
+  color: var(--foundation-primary-p300);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 900px) {
+  .unveilingTheHeart {
+    font-size: var(--font-size-23xl);
+    line-height: 3.125rem;
+  }
+  .buttonPrimaryWithIcon,
+  .buttonPrimaryWithIcon1 {
+    gap: 0 2rem;
+  }
+  .headingAndSupportingTextParent,
+  .text1 {
+    gap: 2rem 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .unveilingTheHeart {
+    font-size: var(--font-size-12xl);
+    line-height: 2.313rem;
+  }
+  .youCanReach {
+    font-size: var(--text-md-medium-size);
+    line-height: 1.5rem;
+  }
+  .precisionMatchmakingAt {
+    font-size: var(--font-size-lgi);
+  }
+  .frameGroup {
+    padding-top: var(--padding-xl);
+    padding-bottom: var(--padding-xl);
+    box-sizing: border-box;
+    min-width: 100%;
+  }
+  .verifiedProfilesFor {
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent {
+    min-width: 100%;
+  }
+  .tailoredSearchTailored {
+    font-size: var(--font-size-lgi);
+  }
+  .groupParent {
+    min-width: 100%;
+  }
+  .successStoriesThat {
+    font-size: var(--font-size-lgi);
+  }
+  .frameContainer {
+    min-width: 100%;
+  }
+  .yourPrivacyYour {
+    font-size: var(--font-size-lgi);
+  }
+  .frameDiv {
+    min-width: 100%;
+  }
+  .stayConnectedWith {
+    font-size: var(--font-size-lgi);
+  }
+  .frameParent2 {
+    min-width: 100%;
+  }
+}

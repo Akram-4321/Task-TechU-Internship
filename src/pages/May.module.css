@@ -1,0 +1,81 @@
+.mayChild {
+  width: 23.25rem;
+  height: 12.375rem;
+  position: relative;
+  border-radius: var(--br-5xl);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+  display: none;
+  max-width: 100%;
+}
+.heading {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.unlockAWorld {
+  width: 61.063rem;
+  position: relative;
+  font-size: var(--font-size-lg);
+  color: var(--gray-900);
+  text-align: center;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameWithHelpMenu {
+  padding: 0 0 var(--padding-9xl);
+  gap: 0.75rem 0;
+  max-width: 100%;
+}
+.frameWithHelpMenu,
+.may,
+.sectionFrame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.sectionFrame {
+  width: 102.25rem;
+  padding: 0 var(--padding-xl) var(--padding-21xl);
+  gap: 2rem 0;
+  max-width: 100%;
+  text-align: left;
+  font-size: 2.5rem;
+  color: var(--foundation-primary-p300);
+  font-family: var(--font-outfit);
+}
+.may {
+  width: 100%;
+  position: relative;
+  background-color: var(--base-white);
+  overflow: hidden;
+  padding: 0 0 5.25rem;
+  gap: 5rem 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 1275px) {
+  .may {
+    gap: 5rem 0;
+  }
+}
+@media screen and (max-width: 900px) {
+  .heading {
+    font-size: var(--font-size-13xl);
+  }
+  .sectionFrame {
+    gap: 2rem 0;
+  }
+  .may {
+    gap: 5rem 0;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: var(--font-size-5xl);
+  }
+}

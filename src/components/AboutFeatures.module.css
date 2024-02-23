@@ -1,0 +1,59 @@
+.aboutFeaturesChild {
+  height: 8.75rem;
+  width: 8.75rem;
+  position: relative;
+  border-radius: var(--br-sm);
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.sravaniReddykonda {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  color: var(--gray-900);
+}
+.yrs5ft {
+  font-size: var(--text-md-medium-size);
+}
+.caste,
+.mailSravanigmailcom,
+.occupation,
+.phn912177,
+.yrs5ft {
+  position: relative;
+}
+.occupation {
+  font-size: var(--text-md-medium-size);
+  color: var(--foundation-neutrals-n700);
+}
+.sravaniReddykondaParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 0.188rem 0;
+  min-width: 10.563rem;
+}
+.aboutFeatures {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.75rem;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--text-sm-normal-size);
+  color: var(--foundation-neutrals-n300);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 450px) {
+  .aboutFeaturesChild,
+  .sravaniReddykondaParent {
+    flex: 1;
+  }
+  .aboutFeatures {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,257 @@
+.advanceSearch {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-weight: 500;
+  font-family: var(--font-outfit);
+  color: var(--foundation-neutrals-n900);
+  text-align: center;
+}
+.advanceSearchWrapper {
+  align-self: stretch;
+  background-color: var(--foundation-primary-p50);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-lgi) var(--padding-lg) var(--padding-lg);
+  white-space: nowrap;
+}
+.basicDetails,
+.div {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-lexend);
+  color: var(--foundation-primary-p300);
+  text-align: left;
+}
+.div {
+  flex: 1;
+  font-size: var(--text-md-medium-size);
+  line-height: 1.25rem;
+  font-family: var(--font-outfit);
+  color: var(--foundation-neutrals-n900);
+}
+.chevronDownIcon {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+}
+.parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.625rem;
+}
+.basicDetailsParent,
+.component24,
+.component24Parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.component24 {
+  border-radius: var(--br-7xs);
+  background-color: var(--base-white);
+  border: 1px solid var(--foundation-neutrals-n40);
+  justify-content: center;
+  padding: var(--padding-xs) var(--padding-mid) var(--padding-xs)
+    var(--padding-mini);
+}
+.basicDetailsParent,
+.component24Parent {
+  justify-content: flex-start;
+  gap: 1rem 0;
+}
+.casteReligion {
+  position: relative;
+  font-size: var(--font-size-lg);
+  font-family: var(--font-lexend);
+  color: var(--foundation-primary-p300);
+  text-align: left;
+}
+.casteReligionDetailsParent,
+.frameGroup,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.casteReligionDetailsParent,
+.frameGroup {
+  align-self: stretch;
+  gap: 1rem 0;
+}
+.frameParent {
+  flex: 1;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+  gap: 1.5rem 0;
+  max-width: 100%;
+}
+.component23Inner,
+.viewMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.component23Inner {
+  align-self: stretch;
+  flex-direction: row;
+  max-width: 100%;
+}
+.viewMore {
+  height: 1.438rem;
+  position: relative;
+  font-size: var(--font-size-lg);
+  letter-spacing: 1px;
+  font-weight: 500;
+  font-family: var(--font-outfit);
+  color: var(--base-white);
+  text-align: center;
+}
+.chevronDownIcon1 {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+}
+.starRatedInput {
+  border-radius: var(--br-5xs);
+  background-color: var(--foundation-primary-p300);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-base);
+  gap: 0 0.125rem;
+  white-space: nowrap;
+}
+.childInputFields,
+.component23 {
+  display: flex;
+  align-items: flex-start;
+}
+.childInputFields {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 0 var(--padding-5xl);
+}
+.component23 {
+  margin: 0;
+  width: 23.875rem;
+  border-radius: var(--br-5xs);
+  background-color: var(--base-white);
+  border: 1px solid var(--foundation-neutrals-n40);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-shrink: 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1.5rem 0;
+  max-width: 100%;
+}
+.heading {
+  position: relative;
+  font-weight: 500;
+}
+.aboutFeaturesWrapper,
+.frameContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.aboutFeaturesWrapper {
+  flex: 1;
+  border-radius: var(--br-5xs);
+  background-color: var(--base-white);
+  border: 1px solid var(--foundation-neutrals-n40);
+  box-sizing: border-box;
+  overflow: hidden;
+  align-items: center;
+  padding: var(--padding-xl) var(--padding-2xl) var(--padding-xl)
+    var(--padding-lgi);
+  min-width: 23.688rem;
+}
+.frameContainer {
+  align-self: stretch;
+  align-items: flex-start;
+  gap: 0 1rem;
+}
+.buttonPrimary {
+  font-size: var(--text-sm-normal-size);
+  color: var(--foundation-neutrals-n300);
+  font-family: var(--font-outfit);
+}
+.buttonPrimary,
+.headingParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1rem 0;
+  max-width: 100%;
+}
+.heading1 {
+  position: relative;
+  font-weight: 500;
+}
+.headingGroup {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 1rem 0;
+}
+.component23Parent,
+.formSection,
+.headingGroup {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.formSection {
+  flex: 1;
+  flex-direction: column;
+  gap: 1.5rem 0;
+  min-width: 48rem;
+}
+.component23Parent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 2rem;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--gray-900);
+  font-family: var(--font-lexend);
+}
+@media screen and (max-width: 1275px) {
+  .frameContainer {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 900px) {
+  .formSection {
+    min-width: 100%;
+  }
+  .component23Parent {
+    gap: 0 2rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading {
+    font-size: var(--text-md-medium-size);
+  }
+  .aboutFeaturesWrapper {
+    min-width: 100%;
+  }
+  .heading1 {
+    font-size: var(--text-md-medium-size);
+  }
+}

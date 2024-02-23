@@ -1,0 +1,95 @@
+.label {
+  position: relative;
+  font-weight: 500;
+}
+.mailIcon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.content,
+.text {
+  flex: 1;
+  max-width: 100%;
+}
+.text {
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+}
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+}
+.helpIcon {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+  display: none;
+}
+.input,
+.inputWithLabel {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input {
+  border-radius: var(--br-5xs);
+  background-color: var(--base-white);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--gray-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-mid) var(--padding-xs)
+    var(--padding-mini);
+  gap: 0 0.5rem;
+  color: var(--foundation-neutrals-n200);
+}
+.inputWithLabel {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.375rem 0;
+}
+.hintText {
+  width: 20rem;
+  position: relative;
+  font-size: var(--text-sm-normal-size);
+  line-height: 1.25rem;
+  font-family: var(--text-md-medium);
+  color: var(--gray-500);
+  display: none;
+}
+.inputField,
+.inputFieldBase {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputFieldBase {
+  align-self: stretch;
+  gap: 0.375rem 0;
+}
+.inputField {
+  flex: 1;
+  min-width: 24.438rem;
+  text-align: left;
+  font-size: var(--text-md-medium-size);
+  color: var(--foundation-neutrals-n900);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 900px) {
+  .inputField {
+    min-width: 100%;
+  }
+}

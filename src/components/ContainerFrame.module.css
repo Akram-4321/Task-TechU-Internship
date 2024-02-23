@@ -1,0 +1,403 @@
+.joinUsToday {
+  position: relative;
+  letter-spacing: -0.2px;
+  line-height: 1.75rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.yourJourneyTo {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-33xl);
+  letter-spacing: -2px;
+  line-height: 3.875rem;
+  font-weight: 600;
+  font-family: inherit;
+  color: var(--gray-900);
+}
+.formFields {
+  width: 46.625rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem 0;
+  max-width: 100%;
+}
+.youCanReach {
+  width: 36rem;
+  position: relative;
+  font-size: var(--font-size-xl);
+  line-height: 1.875rem;
+  color: var(--gray-900);
+  display: inline-block;
+  max-width: 100%;
+}
+.headingAndSupportingText {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem 0;
+  max-width: 100%;
+}
+.label {
+  position: relative;
+  font-weight: 500;
+}
+.mailIcon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.content1,
+.text {
+  flex: 1;
+  max-width: 100%;
+}
+.text {
+  position: relative;
+  line-height: 1.5rem;
+  font-weight: 500;
+  display: inline-block;
+}
+.content1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+  min-width: 22.125rem;
+}
+.helpIcon {
+  display: none;
+}
+.caretDownFillIcon,
+.helpIcon {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+}
+.input,
+.inputWithLabel {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.input {
+  border-radius: var(--br-5xs);
+  background-color: var(--base-white);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--gray-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-mid) var(--padding-xs)
+    var(--padding-mini);
+  gap: 0 0.5rem;
+  color: var(--foundation-neutrals-n800);
+}
+.inputWithLabel {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.375rem 0;
+}
+.hintText {
+  width: 20rem;
+  position: relative;
+  font-size: var(--text-sm-normal-size);
+  line-height: 1.25rem;
+  font-family: var(--text-md-medium);
+  color: var(--gray-500);
+  display: none;
+}
+.inputFieldBase {
+  align-self: stretch;
+  flex-direction: column;
+  gap: 0.375rem 0;
+}
+.inputField,
+.inputFieldBase,
+.inputFieldGroup,
+.inputFieldParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputField {
+  flex: 1;
+  flex-direction: column;
+  min-width: 24.438rem;
+}
+.inputFieldGroup,
+.inputFieldParent {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 1.5rem;
+}
+.label1 {
+  position: relative;
+  font-weight: 500;
+}
+.dropdownText {
+  position: relative;
+  line-height: 1.5rem;
+}
+.chevronDownIcon,
+.dropdown {
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.chevronDownIcon {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+}
+.dropdown {
+  width: 4rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-xs) var(--padding-xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: var(--gap-0);
+  row-gap: 20px;
+}
+.text1 {
+  flex: 1;
+  position: relative;
+  line-height: 1.5rem;
+  display: inline-block;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.helpIcon1 {
+  height: 1rem;
+  width: 1rem;
+  position: relative;
+  display: none;
+}
+.input1,
+.inputWithLabel1,
+.textInput {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.textInput {
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  padding: var(--padding-xs) var(--padding-base) var(--padding-xs) 0;
+  box-sizing: border-box;
+  gap: 0 0.5rem;
+  min-width: 21.813rem;
+  color: var(--foundation-neutrals-n200);
+}
+.input1,
+.inputWithLabel1 {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.input1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--base-white);
+  box-shadow: var(--shadow-xs);
+  border: 1px solid var(--gray-300);
+  box-sizing: border-box;
+  overflow: hidden;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  color: var(--gray-900);
+}
+.inputWithLabel1 {
+  flex-direction: column;
+  gap: 0.375rem 0;
+}
+.hintText1 {
+  width: 20rem;
+  position: relative;
+  font-size: var(--text-sm-normal-size);
+  line-height: 1.25rem;
+  font-family: var(--text-md-medium);
+  color: var(--gray-500);
+  display: none;
+}
+.inputFieldBase1 {
+  align-self: stretch;
+  gap: 0.375rem 0;
+}
+.formFields1,
+.inputField1,
+.inputFieldBase1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputField1 {
+  width: 37.563rem;
+}
+.formFields1 {
+  align-self: stretch;
+  gap: 1.5rem 0;
+}
+.text2 {
+  position: relative;
+  line-height: 1.5rem;
+  font-weight: 500;
+}
+.buttonBase {
+  flex: 1;
+  border-radius: var(--br-xs);
+  background-color: var(--foundation-primary-p300);
+  box-shadow: var(--shadow-xs);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-base) var(--padding-xl);
+  white-space: nowrap;
+}
+.actions,
+.button {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.button {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  flex-direction: row;
+}
+.actions {
+  width: 13.5rem;
+  flex-direction: column;
+  color: var(--base-white);
+  font-family: var(--text-md-medium);
+}
+.form {
+  width: 76.625rem;
+  align-items: center;
+  justify-content: center;
+  gap: 3.75rem 0;
+}
+.caretDownFill,
+.content,
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+.caretDownFill {
+  align-self: stretch;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  color: var(--foundation-neutrals-n900);
+}
+.content {
+  width: 99.75rem;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5rem 0;
+}
+.container,
+.containerFrame,
+.section {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.container {
+  flex: 1;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-13xl);
+}
+.containerFrame,
+.section {
+  justify-content: flex-start;
+}
+.section {
+  flex: 1;
+  align-items: center;
+  padding: var(--padding-101xl) 0;
+}
+.containerFrame {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-21xl);
+  text-align: center;
+  font-size: var(--text-md-medium-size);
+  color: var(--foundation-primary-p300);
+  font-family: var(--font-outfit);
+}
+@media screen and (max-width: 1275px) {
+  .section {
+    gap: 0 4rem;
+    padding-top: var(--padding-59xl);
+    padding-bottom: var(--padding-59xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .yourJourneyTo {
+    font-size: var(--font-size-23xl);
+    line-height: 3.125rem;
+  }
+  .content1 {
+    min-width: 100%;
+  }
+  .input {
+    flex-wrap: wrap;
+  }
+  .inputField {
+    min-width: 100%;
+  }
+  .form {
+    gap: 3.75rem 0;
+  }
+  .content {
+    gap: 5rem 0;
+  }
+  .section {
+    gap: 0 4rem;
+  }
+}
+@media screen and (max-width: 450px) {
+  .yourJourneyTo {
+    font-size: var(--font-size-12xl);
+    line-height: 2.313rem;
+  }
+  .youCanReach {
+    font-size: var(--text-md-medium-size);
+    line-height: 1.5rem;
+  }
+  .textInput {
+    min-width: 100%;
+  }
+  .content {
+    gap: 5rem 0;
+  }
+  .section {
+    padding-top: var(--padding-32xl);
+    padding-bottom: var(--padding-32xl);
+    box-sizing: border-box;
+  }
+}
